@@ -1,0 +1,107 @@
+<html>
+
+<head>
+  <title>Pemesanan Tiket</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Pariwisata<span class="logo_colour"> Jawa Timur </span></a></h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="home.html">Home</a></li>
+          <li><a href="harga_tiket.html">Harga Tiket</a></li>
+          <li class="selected"><a href="pemesanan_tiket.html">Pemesanan Tiket</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <!-- insert your sidebar items here -->
+            <h3>Latest News</h3>
+            <h4>New Website Launched</h4>
+            <h5>February 1st, 2014</h5>
+            <p>2014 sees the redesign of our website. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="#">link 1</a></li>
+              <li><a href="#">link 2</a></li>
+              <li><a href="#">link 3</a></li>
+              <li><a href="#">link 4</a></li>
+            </ul>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Search</h3>
+            <form method="post" action="#" id="search_form">
+              <p>
+                <input class="search" type="text" name="search_field" value="Enter keywords....." />
+                <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+              </p>
+            </form>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+
+	<h2>Form Pemesanan</h2>
+        <form action="#" method="post">
+          <div class="form_settings">
+            <p><span>Name</span><input type="text" name="name" value="" /></p>
+            <p><span>Alamat</span><textarea rows="6" cols="25" name="name"></textarea></p>
+			<p><span>No.Telp</span><input type="text" name="name" value="" /></p>
+            
+            <p><span>Pilih Tempat Wisata Dan Tiket</span>
+			<select id="id" name="name">
+			<option value="1">Blitar Park Tiket Masuk Rp.15.000</option>
+			<option value="2">Blitar Park Tiket Masuk Terusan Rp.30.000</option>
+			<option value="3"></option>
+			<option value="4">Pasir Putih Delegan Tiket Masuk Rp.10.000</option>
+			<option value="5"></option>
+			<option value="6"> Entrance WBL Tiket Masuk Senin - Kamis Rp.45.000</option>
+			<option value="7"> Entrance WBL Tiket Masuk Jumat - Minggu Rp.55.000</option>
+			<option value="8"> Paket WBL Tiket Masuk Senin - Kamis Rp.85.000</option>
+			<option value="9"> Paket WBL Tiket Masuk Jumat - Minggu Rp.110.000</option>
+			<option value="9"> Paket WBL dan Maharani Zoo Goa Tiket Masuk Senin - Kamis Rp.110.000</option>
+			<option value="9"> Paket WBL dan Maharani Zoo Goa Tiket Masuk Jumat - Minggu Rp.140.000</option>
+			</select>
+			</p>
+			<p><span>Centang JIka Sudah Benar</span><input class="checkbox" type="checkbox" name="name" value="" /></p>
+            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="name" value="Pesan Tiket" /></p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="index.html">Home</a> | <a href="examples.html">Examples</a> | <a href="page.html">A Page</a> | <a href="another_page.html">Another Page</a> | <a href="contact.html">Contact Us</a></p>
+      <p>Copyright &copy; simplestyle_banner | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">HTML5 Web Templates</a></p>
+    </div>
+  </div>
+</body>
+</html>
+</html>
